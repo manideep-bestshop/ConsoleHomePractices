@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectAsArray", "ObjectAsAr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallByValueRefOut", "CallByValueRefOut\CallByValueRefOut.csproj", "{E7B157A6-3E0D-40FD-9664-165E0241BFA1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemberClass", "MemberClass\MemberClass.csproj", "{1F96B2F2-5540-485F-9F0A-A859DEDBC26F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{E7B157A6-3E0D-40FD-9664-165E0241BFA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7B157A6-3E0D-40FD-9664-165E0241BFA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7B157A6-3E0D-40FD-9664-165E0241BFA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F96B2F2-5540-485F-9F0A-A859DEDBC26F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F96B2F2-5540-485F-9F0A-A859DEDBC26F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F96B2F2-5540-485F-9F0A-A859DEDBC26F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F96B2F2-5540-485F-9F0A-A859DEDBC26F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
