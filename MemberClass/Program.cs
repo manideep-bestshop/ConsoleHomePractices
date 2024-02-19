@@ -16,31 +16,41 @@ namespace MemberClass
         public void Display()
         {
             Console.WriteLine(CName);
+         //   s.CallFromOutmethod();
+
         }
-        public class Sterio
+        public class Sterio   //member class
         {
             private string SName;
+            Car c = new Car();   //main class instance
             public void GetInfo()
             {
+                c.GetData();
                 SName = "Sterio";
             }
             public void show()
             {
+                c.Display();
                 Console.WriteLine(SName);
             }
+            public void CallFromOutmethod()
+            {
+                Console.WriteLine("output from member class and calling from main class");
+            }
         }
+       // Sterio s=new Sterio();  // instance craeted in class 
     }
     internal class Program
     {
         static void Main(string[] args)
         {
-            Car c=new Car();
+          //  Car c=new Car();
             Car.Sterio s=new Car.Sterio();
 
-            c.GetData();
+            //c.GetData();
             s.GetInfo();
 
-            c.Display();
+            //c.Display();
             s.show();
         }
     }
