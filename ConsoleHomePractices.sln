@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodOverLoading", "Method
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorEx", "Constructor\ConstructorEx.csproj", "{15A2C531-CA87-4926-B81B-3CF0736CE744}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticMembers", "StaticMembers\StaticMembers.csproj", "{2DA38A23-EDA9-4587-BC58-42DC6F033A2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CategoriesofFields", "CategoriesofFields\CategoriesofFields.csproj", "{AF6B5818-8C66-4CBD-A91B-09ECBE184051}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{15A2C531-CA87-4926-B81B-3CF0736CE744}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15A2C531-CA87-4926-B81B-3CF0736CE744}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15A2C531-CA87-4926-B81B-3CF0736CE744}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DA38A23-EDA9-4587-BC58-42DC6F033A2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DA38A23-EDA9-4587-BC58-42DC6F033A2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DA38A23-EDA9-4587-BC58-42DC6F033A2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DA38A23-EDA9-4587-BC58-42DC6F033A2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF6B5818-8C66-4CBD-A91B-09ECBE184051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF6B5818-8C66-4CBD-A91B-09ECBE184051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF6B5818-8C66-4CBD-A91B-09ECBE184051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF6B5818-8C66-4CBD-A91B-09ECBE184051}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -86,7 +86,7 @@ namespace ConstructorEx
             new demo2(); //anonymous object
             new demo2().show();// anonymous / nameless object
 
-            student s = new student() { RNo = 1, SName = "MANIDEEP", marks = 84 };
+            student s = new student() { RNo = 1, SName = "MANIDEEP", marks = 84 }; //Object Initialization
             Console.WriteLine(s.RNo+" "+s.SName+" "+s.marks);
         }
     }
