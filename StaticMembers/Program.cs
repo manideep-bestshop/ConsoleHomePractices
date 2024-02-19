@@ -37,8 +37,8 @@ namespace StaticMembers
         {
             Console.WriteLine("From Main method..");
 
-            demo d= new demo(); 
-            demo d2=new demo();
+          //  demo d= new demo(); 
+            //demo d2=new demo();
 
             Console.WriteLine(demo.i);
             demo.show();

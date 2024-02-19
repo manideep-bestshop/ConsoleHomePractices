@@ -41,14 +41,14 @@ namespace MethodOverLoading
         }
         static void Main(string[] args)
         {
-            Program p=new Program();
-            p.show();
-            p.show(25);
-            p.show(18.5);
+         //   Program p=new Program();
+           // p.show();
+            //p.show(25);
+            //p.show(18.5);
 
             ParamsEx pe = new ParamsEx();
             pe.show();
-            pe.show(1,2);
+             pe.show(1,5,23,34,44,66);
         }
     }
 }
